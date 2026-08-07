@@ -1,0 +1,33 @@
+# ==============================================================================
+# Enterprise Production Dependencies - Production Auth System
+# ==============================================================================
+
+# Core Web Framework & API Layer
+Django>=5.0.0,<6.0.0
+django-ninja>=1.1.0,<2.0.0
+pydantic>=2.6.0,<3.0.0
+
+# Database & Driver
+psycopg2-binary>=2.9.9,<3.0.0
+
+# Security, Cryptography & Tokens
+PyJWT>=2.8.0,<3.0.0
+bcrypt>=4.1.2,<5.0.0
+cryptography>=42.0.0,<43.0.0
+
+# Environment & Configuration Management
+python-dotenv>=1.0.1,<2.0.0
+django-cors-headers>=4.3.1,<5.0.0
+
+# Utilities
+requests>=2.31.0,<3.0.0
+
+# ==============================================================================
+# Testing & Code Quality Dependencies
+# ==============================================================================
+pytest>=8.0.0,<9.0.0
+pytest-django>=4.8.0,<5.0.0
+pytest-cov>=4.1.0,<5.0.0
+freezegun>=1.4.0,<2.0.0
+factory-boy>=3.3.0,<4.0.0
+ruff>=0.2.0,<1.0.0
