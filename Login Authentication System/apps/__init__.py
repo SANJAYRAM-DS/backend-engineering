@@ -1,1 +1,0 @@
-# Core applications package initialization
